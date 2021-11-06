@@ -1,0 +1,47 @@
+#navbar-panel {
+    z-index: 100;
+    position: fixed; 
+    left: 0;
+    right: 0;
+    bottom:0;
+    margin-left: auto; 
+    margin-right: auto; 
+    max-width: 500px;
+    text-align: center;
+
+    border-top-left-radius: 28px;
+    border-top-right-radius: 28px;
+    background-color: #282826;
+    color:#8B8680;
+
+    box-shadow: 0px -5px 8px 0px rgb(28 27 26);
+}
+
+#navbar-panel li a:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+#navbar-panel ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#navbar-panel li {
+  float: left;
+  width: calc(100% / 3);
+}
+
+#navbar-panel li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.void {
+    height:50px;
+    background: transparent;
+}

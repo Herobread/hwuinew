@@ -1,0 +1,59 @@
+.week-container{
+    padding:10px;
+}
+
+.day-panel {
+    background: #282826;
+    width: 95%;
+    word-wrap: break-word;
+    min-height: 200px;
+    max-width: 500px;
+
+    display: table;
+    margin: 10px auto;
+
+    font-size: 18px;
+    border-radius: 28px;
+
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.small {
+    min-height: 10px;
+    padding-top: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.red {
+    background-color: #ff2700;
+    color: white;
+}
+
+.day-panel td.day-subject-detail{
+    padding-top:0px;
+    width: 100%;
+    max-width: 200px;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.day-panel td.day-subject-name{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.day-panel h2{
+    font-size: 23px;
+    font-weight: 200;
+    text-align: center;
+    color:white;
+}
+
+.highlight {
+    color:white;
+    text-decoration: none;
+}

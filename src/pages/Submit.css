@@ -1,0 +1,54 @@
+.form {
+    width:100%;
+    padding-top: 10px;
+}
+
+.bottom-padding {
+    padding-bottom: 10px;
+}
+
+.form > div {
+    width:100%;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.input {
+    font-size:18px;
+    width:100%;
+    box-sizing: border-box;
+    border: 0px;
+    background-color: transparent;
+    border-bottom: 2px solid #626262;
+    transition: 0.3s;
+}
+
+input:focus, textarea:focus, select:focus{
+    outline: none;
+    transition: 0.3s;
+}
+
+input:hover {
+    border-bottom: 2px solid white;
+    color:white;
+    transition: 0.3s;
+}
+
+.button {
+    font-size: 17px;
+    width:100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    height:45px;
+    border: none;
+    background-color: #373737;
+    border-radius: 28px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
